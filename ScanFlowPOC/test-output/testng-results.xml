@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Launching chrome driver]]>
+    </line>
+    <line>
+      <![CDATA[Launching URL : https://zxing.org/w/decode.jspx]]>
+    </line>
+    <line>
+      <![CDATA[Uploading the invalid QR Image]]>
+    </line>
+    <line>
+      <![CDATA[Invalid QR Code Error :  No Barcode Found
+No barcode was found in this image. Either it did not contain a barcode, or did not contain one in a supported format, or the software was simply unable to find it. Go "Back" in your browser and try another image.]]>
+    </line>
+    <line>
+      <![CDATA[Attaching Error Screenshot]]>
+    </line>
+    <line>
+      <![CDATA[Uploading the Valid QR Image]]>
+    </line>
+    <line>
+      <![CDATA[Extracting the Result Type : URI]]>
+    </line>
+    <line>
+      <![CDATA[Extracting the Text : littlegrasshopper://9781640309012]]>
+    </line>
+    <line>
+      <![CDATA[Attaching Result Screenshot]]>
+    </line>
+    <line>
+      <![CDATA[Closing the browser]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2022-09-28T15:03:51 IST" name="Default suite" finished-at="2022-09-28T15:03:58 IST" duration-ms="7058">
+    <groups>
+    </groups>
+    <test started-at="2022-09-28T15:03:51 IST" name="Default test" finished-at="2022-09-28T15:03:58 IST" duration-ms="7058">
+      <class name="TestCases.QRcodeScan">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:TestCases.QRcodeScan@294425a7]" started-at="2022-09-28T15:03:45 IST" name="setUp" finished-at="2022-09-28T15:03:51 IST" duration-ms="5950" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Launching chrome driver]]>
+            </line>
+            <line>
+              <![CDATA[Launching URL : https://zxing.org/w/decode.jspx]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="InvalidscanQR()[pri:0, instance:TestCases.QRcodeScan@294425a7]" started-at="2022-09-28T15:03:51 IST" name="InvalidscanQR" finished-at="2022-09-28T15:03:54 IST" duration-ms="3170" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Uploading the invalid QR Image]]>
+            </line>
+            <line>
+              <![CDATA[Invalid QR Code Error :  No Barcode Found
+No barcode was found in this image. Either it did not contain a barcode, or did not contain one in a supported format, or the software was simply unable to find it. Go "Back" in your browser and try another image.]]>
+            </line>
+            <line>
+              <![CDATA[Attaching Error Screenshot]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- InvalidscanQR -->
+        <test-method signature="validscanQR()[pri:0, instance:TestCases.QRcodeScan@294425a7]" started-at="2022-09-28T15:03:54 IST" name="validscanQR" finished-at="2022-09-28T15:03:58 IST" duration-ms="3844" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Uploading the Valid QR Image]]>
+            </line>
+            <line>
+              <![CDATA[Extracting the Result Type : URI]]>
+            </line>
+            <line>
+              <![CDATA[Extracting the Text : littlegrasshopper://9781640309012]]>
+            </line>
+            <line>
+              <![CDATA[Attaching Result Screenshot]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- validscanQR -->
+        <test-method is-config="true" signature="tearUp()[pri:0, instance:TestCases.QRcodeScan@294425a7]" started-at="2022-09-28T15:03:58 IST" name="tearUp" finished-at="2022-09-28T15:04:00 IST" duration-ms="1327" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Closing the browser]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tearUp -->
+      </class> <!-- TestCases.QRcodeScan -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

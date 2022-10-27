@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="60847" started-at="2022-10-27T06:24:46Z" finished-at="2022-10-27T06:25:47Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="60847" started-at="2022-10-27T06:24:46Z" finished-at="2022-10-27T06:25:47Z">
+      <class name="tests.SampleTestScenario">
+        <test-method status="PASS" signature="suiteSetup()[pri:0, instance:tests.SampleTestScenario@363ee3a2]" name="suiteSetup" is-config="true" duration-ms="72" started-at="2022-10-27T06:24:46Z" finished-at="2022-10-27T06:24:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- suiteSetup -->
+        <test-method status="PASS" signature="methodSetup(java.lang.reflect.Method)[pri:0, instance:tests.SampleTestScenario@363ee3a2]" name="methodSetup" is-config="true" duration-ms="12416" started-at="2022-10-27T06:24:47Z" finished-at="2022-10-27T06:24:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.SampleTestScenario.Login(java.util.HashMap) throws java.lang.Throwable]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodSetup -->
+        <test-method status="PASS" signature="Login(java.util.HashMap)[pri:1, instance:tests.SampleTestScenario@363ee3a2]" name="Login" duration-ms="6802" started-at="2022-10-27T06:24:59Z" data-provider="TestScenario1" finished-at="2022-10-27T06:25:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{=, USERNAME=hostuser, TESTCASENAME=Login, PASSWORD=password1!}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login -->
+        <test-method status="PASS" signature="methodTearDown()[pri:0, instance:tests.SampleTestScenario@363ee3a2]" name="methodTearDown" is-config="true" duration-ms="1156" started-at="2022-10-27T06:25:06Z" finished-at="2022-10-27T06:25:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodTearDown -->
+        <test-method status="PASS" signature="methodSetup(java.lang.reflect.Method)[pri:0, instance:tests.SampleTestScenario@363ee3a2]" name="methodSetup" is-config="true" duration-ms="6469" started-at="2022-10-27T06:25:08Z" finished-at="2022-10-27T06:25:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.SampleTestScenario.LibraryFunctionality(java.util.HashMap) throws java.lang.Throwable]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodSetup -->
+        <test-method status="PASS" signature="LibraryFunctionality(java.util.HashMap)[pri:2, instance:tests.SampleTestScenario@363ee3a2]" name="LibraryFunctionality" duration-ms="31488" started-at="2022-10-27T06:25:14Z" data-provider="TestScenario1" finished-at="2022-10-27T06:25:45Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{=, USERNAME=hostuser, TESTCASENAME=LibraryFunctionality, PASSWORD=password1!}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LibraryFunctionality -->
+        <test-method status="PASS" signature="methodTearDown()[pri:0, instance:tests.SampleTestScenario@363ee3a2]" name="methodTearDown" is-config="true" duration-ms="1176" started-at="2022-10-27T06:25:46Z" finished-at="2022-10-27T06:25:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodTearDown -->
+      </class> <!-- tests.SampleTestScenario -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
