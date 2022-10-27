@@ -1,0 +1,318 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Launching chrome driver]]>
+    </line>
+    <line>
+      <![CDATA[Launching URL : https://www.amazon.in/]]>
+    </line>
+    <line>
+      <![CDATA[Searching : hats for men]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on search button]]>
+    </line>
+    <line>
+      <![CDATA[Selected the first hat]]>
+    </line>
+    <line>
+      <![CDATA[Moved to new tab]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on Quantity button]]>
+    </line>
+    <line>
+      <![CDATA[Selected Quantity size to 2]]>
+    </line>
+    <line>
+      <![CDATA[Item added to the cart]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on Cart button]]>
+    </line>
+    <line>
+      <![CDATA[Retreiving the text as amount]]>
+    </line>
+    <line>
+      <![CDATA[Men hat total Quantity: 2]]>
+    </line>
+    <line>
+      <![CDATA[Actual Total Amount: 1,198.00]]>
+    </line>
+    <line>
+      <![CDATA[Expected Total Amount: 1,198.00]]>
+    </line>
+    <line>
+      <![CDATA[Actual amount matches expected amount]]>
+    </line>
+    <line>
+      <![CDATA[Searching : hats for women]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on search button]]>
+    </line>
+    <line>
+      <![CDATA[Selected the first hat]]>
+    </line>
+    <line>
+      <![CDATA[Moved to new tab]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on Quantity button]]>
+    </line>
+    <line>
+      <![CDATA[Selected Quantity size to 1]]>
+    </line>
+    <line>
+      <![CDATA[Item added to the cart]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on Cart button]]>
+    </line>
+    <line>
+      <![CDATA[Retreiving the text as amount]]>
+    </line>
+    <line>
+      <![CDATA[Women hat quantity: 1]]>
+    </line>
+    <line>
+      <![CDATA[Women Hat Total Amount: 499.00]]>
+    </line>
+    <line>
+      <![CDATA[Men hat quantity: 2]]>
+    </line>
+    <line>
+      <![CDATA[Men hat total amount: 1,198.00]]>
+    </line>
+    <line>
+      <![CDATA[Actual Sum of Men hat and Women hat amount: 1,697.00]]>
+    </line>
+    <line>
+      <![CDATA[Expected Sum of Men hat and Women hat amount: 1,697.00]]>
+    </line>
+    <line>
+      <![CDATA[Actual amount matches expected amount]]>
+    </line>
+    <line>
+      <![CDATA[clicked on Quantity Button]]>
+    </line>
+    <line>
+      <![CDATA[Changed Men hat quantity to 1]]>
+    </line>
+    <line>
+      <![CDATA[Women hat quantity: 1]]>
+    </line>
+    <line>
+      <![CDATA[Women Hat Total Amount: 499.00]]>
+    </line>
+    <line>
+      <![CDATA[Men hat price:   599.00]]>
+    </line>
+    <line>
+      <![CDATA[Men hat quantity: 1]]>
+    </line>
+    <line>
+      <![CDATA[Men hat total amount: 599.00]]>
+    </line>
+    <line>
+      <![CDATA[Actual Sum of Men hat and Women hat amount: 1,098.00]]>
+    </line>
+    <line>
+      <![CDATA[Expected Sum of Men hat and Women hat amount: 1,098.00]]>
+    </line>
+    <line>
+      <![CDATA[Actual amount matches expected amount]]>
+    </line>
+    <line>
+      <![CDATA[Closing the browser]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2022-10-26T12:51:22 IST" name="Suite" finished-at="2022-10-26T12:52:09 IST" duration-ms="47416">
+    <groups>
+    </groups>
+    <test started-at="2022-10-26T12:51:22 IST" name="Test" finished-at="2022-10-26T12:52:09 IST" duration-ms="47416">
+      <class name="TestCases.amazonAutomationTestCase">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:TestCases.amazonAutomationTestCase@79924b]" started-at="2022-10-26T12:51:04 IST" name="setUp" finished-at="2022-10-26T12:51:22 IST" duration-ms="17424" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Launching chrome driver]]>
+            </line>
+            <line>
+              <![CDATA[Launching URL : https://www.amazon.in/]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="TestCase1_AddMenHat()[pri:1, instance:TestCases.amazonAutomationTestCase@79924b]" started-at="2022-10-26T12:51:22 IST" name="TestCase1_AddMenHat" finished-at="2022-10-26T12:51:41 IST" duration-ms="19545" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Searching : hats for men]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on search button]]>
+            </line>
+            <line>
+              <![CDATA[Selected the first hat]]>
+            </line>
+            <line>
+              <![CDATA[Moved to new tab]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on Quantity button]]>
+            </line>
+            <line>
+              <![CDATA[Selected Quantity size to 2]]>
+            </line>
+            <line>
+              <![CDATA[Item added to the cart]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on Cart button]]>
+            </line>
+            <line>
+              <![CDATA[Retreiving the text as amount]]>
+            </line>
+            <line>
+              <![CDATA[Men hat total Quantity: 2]]>
+            </line>
+            <line>
+              <![CDATA[Actual Total Amount: 1,198.00]]>
+            </line>
+            <line>
+              <![CDATA[Expected Total Amount: 1,198.00]]>
+            </line>
+            <line>
+              <![CDATA[Actual amount matches expected amount]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- TestCase1_AddMenHat -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:TestCases.amazonAutomationTestCase@79924b]" started-at="2022-10-26T12:51:41 IST" name="tearDown" finished-at="2022-10-26T12:51:41 IST" duration-ms="4" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TestCase1_AddMenHat status=SUCCESS method=amazonAutomationTestCase.TestCase1_AddMenHat()[pri:1, instance:TestCases.amazonAutomationTestCase@79924b] output=Searching : hats for men]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="TestCase2_AddWomenHat()[pri:2, instance:TestCases.amazonAutomationTestCase@79924b]" started-at="2022-10-26T12:51:41 IST" name="TestCase2_AddWomenHat" finished-at="2022-10-26T12:52:03 IST" duration-ms="21230" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Searching : hats for women]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on search button]]>
+            </line>
+            <line>
+              <![CDATA[Selected the first hat]]>
+            </line>
+            <line>
+              <![CDATA[Moved to new tab]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on Quantity button]]>
+            </line>
+            <line>
+              <![CDATA[Selected Quantity size to 1]]>
+            </line>
+            <line>
+              <![CDATA[Item added to the cart]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on Cart button]]>
+            </line>
+            <line>
+              <![CDATA[Retreiving the text as amount]]>
+            </line>
+            <line>
+              <![CDATA[Women hat quantity: 1]]>
+            </line>
+            <line>
+              <![CDATA[Women Hat Total Amount: 499.00]]>
+            </line>
+            <line>
+              <![CDATA[Men hat quantity: 2]]>
+            </line>
+            <line>
+              <![CDATA[Men hat total amount: 1,198.00]]>
+            </line>
+            <line>
+              <![CDATA[Actual Sum of Men hat and Women hat amount: 1,697.00]]>
+            </line>
+            <line>
+              <![CDATA[Expected Sum of Men hat and Women hat amount: 1,697.00]]>
+            </line>
+            <line>
+              <![CDATA[Actual amount matches expected amount]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- TestCase2_AddWomenHat -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:TestCases.amazonAutomationTestCase@79924b]" started-at="2022-10-26T12:52:03 IST" name="tearDown" finished-at="2022-10-26T12:52:03 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TestCase2_AddWomenHat status=SUCCESS method=amazonAutomationTestCase.TestCase2_AddWomenHat()[pri:2, instance:TestCases.amazonAutomationTestCase@79924b] output=Searching : hats for women]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="TestCase3_SumOfHats()[pri:3, instance:TestCases.amazonAutomationTestCase@79924b]" started-at="2022-10-26T12:52:03 IST" name="TestCase3_SumOfHats" finished-at="2022-10-26T12:52:09 IST" duration-ms="6543" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[clicked on Quantity Button]]>
+            </line>
+            <line>
+              <![CDATA[Changed Men hat quantity to 1]]>
+            </line>
+            <line>
+              <![CDATA[Women hat quantity: 1]]>
+            </line>
+            <line>
+              <![CDATA[Women Hat Total Amount: 499.00]]>
+            </line>
+            <line>
+              <![CDATA[Men hat price:   599.00]]>
+            </line>
+            <line>
+              <![CDATA[Men hat quantity: 1]]>
+            </line>
+            <line>
+              <![CDATA[Men hat total amount: 599.00]]>
+            </line>
+            <line>
+              <![CDATA[Actual Sum of Men hat and Women hat amount: 1,098.00]]>
+            </line>
+            <line>
+              <![CDATA[Expected Sum of Men hat and Women hat amount: 1,098.00]]>
+            </line>
+            <line>
+              <![CDATA[Actual amount matches expected amount]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- TestCase3_SumOfHats -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:TestCases.amazonAutomationTestCase@79924b]" started-at="2022-10-26T12:52:09 IST" name="tearDown" finished-at="2022-10-26T12:52:09 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TestCase3_SumOfHats status=SUCCESS method=amazonAutomationTestCase.TestCase3_SumOfHats()[pri:3, instance:TestCases.amazonAutomationTestCase@79924b] output=clicked on Quantity Button]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="tearUp()[pri:0, instance:TestCases.amazonAutomationTestCase@79924b]" started-at="2022-10-26T12:52:09 IST" name="tearUp" finished-at="2022-10-26T12:52:11 IST" duration-ms="2109" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Closing the browser]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tearUp -->
+      </class> <!-- TestCases.amazonAutomationTestCase -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
